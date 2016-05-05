@@ -6,7 +6,7 @@ class Rater(models.Model):
     age = models.IntegerField()
     gender = models.CharField(max_length=2)
     occupation = models.CharField(max_length=20)
-    zip_code = models.Charfield(max_length=10)
+    zip_code = models.CharField(max_length=10)
 
 
 class Movie(models.Model):
